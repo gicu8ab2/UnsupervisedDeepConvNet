@@ -1,6 +1,6 @@
 # Geometric Augmentation for Robust Neural Network Classifiers
 
-## This codebase is a mix of Matlab and Python code used to study
+This codebase is a mix of Matlab and Python code used to study
 techniques to make neural networks robust to adversarial attacks.  This
 is mostly a free time effort that has not been thoroughly tested for
 completeness, so use code at your own risk.  I
@@ -13,7 +13,7 @@ Convolution Net" model described in "Striving for Simplicity: The All
 Convolutional Net." The original paper can be found
 [here](https://arxiv.org/abs/1412.6806#).  I use the Bayesian
 nonparametric mixture of factor analyzers which can be found
-(here)(http://people.ee.duke.edu/~lcarin/BCS.html) and is documented
+[here](http://people.ee.duke.edu/~lcarin/BCS.html) and is documented
 in Chen2010_CS_on_manifolds.pdf and MFA_code_doc.pdf in docs
 folder.
 
@@ -38,8 +38,8 @@ google drive folder
 ## Usage
 
 Change the data paths to point to the RadioML directory of training
-and testin data.  Change the "path_to_venv_python" to point to the correct python
-path on local machine).  From a Matlab/Octave prompt run the following scripts:
+and testing data.  Change the "path_to_venv_python" to point to the correct python
+path on local machine.  From a Matlab/Octave prompt run the following scripts:
 
 1) train_robust_DCNN.m
 
